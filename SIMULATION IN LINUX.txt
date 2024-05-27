@@ -1,0 +1,18 @@
+SIMULATION IN LINUX
+
+Save the source code files predictorgap.c and predictorpap.c in the folder where trace file gccSmall.trace is located.
+Open the bash window from the same folder where the above files are present.
+
+Install gcc compiler by typing the following command:
+$ sudo apt install gcc
+
+After installation of gcc compiler,
+To compile the files:
+
+1. gcc -o predictorgap predictorgap.c -lm
+2. gcc -o predictorpap predictorpap.c -lm
+
+To run the simulation:
+
+1. ./predictorgap gccSmall.trace
+2. ./predictorpap gccSmall.trace
